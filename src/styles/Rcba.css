@@ -1,0 +1,381 @@
+/* -----RCBA HEAD----- */
+.rcba-head{
+    padding: 8rem 3rem 5rem;
+    background-color: #0b183d;
+    color: #ffffff;
+    text-align: center;
+    max-width: 100%;
+}
+
+.rcba-head h1{
+    color: #facc15;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.rcba-head p{
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto 1.5rem;
+    line-height: 1.8;
+    color: #cbd5e1;
+}
+
+.rcba-head blockquote{
+    border-left: 4px solid #facc15;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    max-width: 700px;
+    font-style: italic;
+    color: #facc15;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.rcba-head blockquote cite{
+    display: block;
+    margin-top: 0.5rem;
+    color: #94a3b8;
+    font-size: 0.95rem;
+}
+
+/* -----RCBA HISTORY----- */
+.rcba-his,
+.rcba-why,
+.rcba-schedule{
+    padding: 3rem 3rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.rcba-his{
+    padding-top: 5rem;
+}
+
+.rcba-his h3,
+.rcba-why h3,
+.rcba-schedule h3{
+    color: #0b183d;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    border-left: 4px solid #facc15;
+    padding-left: 1rem;
+}
+
+.rcba-his p,
+.rcba-why p,
+.rcba-schedule p{
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.rcba-his ul,
+.rcba-why ul,
+.rcba-schedule ul{
+    padding-left: 1.5rem;
+    color: #444;
+    line-height: 2;
+    font-size: 1.1rem;
+}
+
+.rcba-his ul li,
+.rcba-why ul li,
+.rcba-schedule ul li{
+    margin-bottom: 0.5rem;
+}
+
+/* ------RCBA GALLERY----- */
+.rcba-gallery{
+    background-color: #f0f4ff;
+    padding: 5rem 3rem;
+    text-align: center;
+}
+
+.rcba-gallery h3{
+    color: #0b183d;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.rcba-gallery p{
+    color: #444;
+    margin-bottom: 0.5rem;
+}
+
+.rcba-gallery ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
+    margin-bottom: 2.5rem;
+}
+
+.rcba-gallery ul li{
+    background-color: #0b183d;
+    color: #facc15;
+    padding: 0.4rem 1.2rem;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+.gallery-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.gallery-grid img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-grid img:hover{
+    transform: scale(1.03);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+}
+
+/* -----RCBA MISSION----- */
+.rcba-mission{
+    background-color: #0b183d;
+    padding: 5rem 3rem;
+    text-align: center;
+}
+
+.rcba-mission-text{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.rcba-mission-text h2{
+    color: #facc15;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.rcba-mission-text p{
+    color: #cbd5e1;
+    line-height: 1.8;
+    font-size: 1.05rem;
+    margin-bottom: 2rem;
+}
+
+.rcba-mission-text blockquote{
+    border-left: 4px solid #facc15;
+    padding: 1rem 2rem;
+    font-style: italic;
+    color: #facc15;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.rcba-mission-text blockquote cite{
+    display: block;
+    margin-top: 0.5rem;
+    color: #94a3b8;
+    font-size: 0.9rem;
+}
+
+/* -----RCBA OFFERS----- */
+.rcba-offers{
+    padding: 5rem 3rem;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.rcba-offers h2{
+    color: #0b183d;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 3px solid #facc15;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+.rcba-offers p{
+    color: #444;
+    margin: 1rem 0;
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+.rcba-offers ul{
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.rcba-offers ul li{
+    background-color: #f0f4ff;
+    border-left: 4px solid #facc15;
+    padding: 1rem 1.5rem;
+    border-radius: 4px;
+    color: #0b183d;
+    font-weight: 500;
+}
+
+/* -----RCBA CALL----- */
+.rcba-call{
+    background-color: #facc15;
+    padding: 5rem 3rem;
+    text-align: center;
+}
+
+.rcba-call h3{
+    color: #0b183d;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.rcba-call p {
+    color: #0b183d;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    line-height: 1.8;
+    font-size: 1.05rem;
+}
+
+.rcba-call a{
+    display: inline-block;
+    background-color: #0b183d;
+    color: #facc15;
+    padding: 0.85rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.rcba-call a:hover{
+    background-color: #ffffff;
+    color: #0b183d;
+}
+
+/* -----TABLET 1024PX----- */
+@media (max-width: 1024px){
+
+    /* -----GALLERY----- */
+    .gallery-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* ----- OFFERS ------ */
+    .rcba-offers ul{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ----- MOBILE 786PX ----- */
+@media (max-width: 768px){
+
+    /* -----HEAD ----- */
+    .rcba-head{
+        padding: 6rem 1.5rem 3rem;
+    }
+
+    .rcba-head h1{
+        font-size: 1.6rem;
+    }
+
+    .rcba-head p{
+        font-size: 1rem;
+    }
+
+    .rcba-head blockquote{
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    /* ----- HISTORY----- */
+    .rcba-his,
+    .rcba-why,
+    .rcba-schedule{
+        padding: 2rem 1.5rem;
+    }
+
+    .rcba-his{
+        padding-top: 3rem;
+    }
+
+    .rcba-his h3,
+    .rcba-why h3,
+    .rcba-schedule h3{
+        font-size: 1.3rem;
+    }
+
+    .rcba-his p,
+    .rcba-why p,
+    .rcba-schedule p,
+    .rcba-his ul,
+    .rcba-why ul,
+    .rcba-schedule ul {
+        font-size: 1rem;
+    }
+
+    /* ------ GALLERY ------ */
+    .rcba-gallery{
+        padding: 3rem 1.5rem;
+    }
+
+    .rcba-gallery h3{
+        font-size: 1.5rem;
+    }
+
+    .gallery-grid{
+        grid-template-columns: 1fr;
+    }
+
+    /* ----- MISSION ---- */
+    .rcba-mission{
+        padding: 3rem 1.5rem;
+    }
+
+    .rcba-mission-text h2 {
+        font-size: 1.6rem;
+    }
+
+    .rcba-mission-text blockquote{
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    /* ----- OFFERS ----- */
+    .rcba-offers {
+        padding: 3rem 1.5rem;
+    }
+
+    .rcba-offers h2{
+        font-size: 1.6rem;
+    }
+
+    .rcba-offers ul{
+        grid-template-columns: 1fr;
+    }
+
+    /* -----CALL----- */
+    .rcba-call{
+        padding: 3rem 1.5rem;
+    }
+
+    .rcba-call h3{
+        font-size: 1.6rem;
+    }
+
+    .rcba-call a{
+        padding: 0.85rem 2rem;
+    }
+}

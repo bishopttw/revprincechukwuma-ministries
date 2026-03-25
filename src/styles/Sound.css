@@ -1,0 +1,570 @@
+/* -----SOUND HERO ------ */
+.sound-hero{
+    padding: 8rem 3rem 5rem;
+    background-color: #0b183d;
+    color: #ffffff;
+    text-align: center;
+}
+
+.sound-hero h1{
+    color: #facc15;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.sound-hero p {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
+    color: #cbd5e1;
+}
+
+/* ----- SOUND ABOUT----- */
+.sound-about {
+    padding: 5rem 3rem;
+    background-color: #f8f8f8;
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.sound-about h2{
+    color: #0b183d;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 3px solid #facc15;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+.sound-about p{
+    color: #333;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+/* ----- SOUND SERVICES----- */
+.sound-services{
+    padding: 5rem 3rem;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.sound-services h2{
+    color: #0b183d;
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.sound-services > p{
+    color: #333;
+    margin-bottom: 2.5rem;
+    font-size: 1.2rem;
+}
+
+.services-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.service-card{
+    background-color: #f0f4ff;
+    border-left: 4px solid #facc15;
+    border-radius: 7px;
+    padding: 1.5rem;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover{
+    transform: translate(-5px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+
+.service-card h3{
+    color: #0b183d;
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+}
+
+.service-card p{
+    color: #333;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+/* -----SOUND PACKAGES----- */
+.sound-packages{
+    padding: 5rem 3rem;
+    background-color: #0b183d;
+    text-align: center;
+}
+
+.sound-packages h2{
+    color: #facc15;
+    font-size: 2.2rem;
+    margin-bottom: 0.6rem;
+}
+
+.sound-packages > p{
+    color: #cbd5e1;
+    margin-bottom: 2.5rem;
+    font-size: 1rem;
+}
+
+.packages-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.package-card{
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.package-card:hover{
+    transform: translate(-6px);
+}
+
+.package-featured{
+    background-color: #facc15;
+    transform: translate(-10px);
+}
+
+.package-featured:hover{
+    transform: translate(-14px);
+}
+
+.package-card h3 {
+    color: #0b183d;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.package-tag{
+    background-color: #0b183d;
+    color: #facc15;
+    padding: 1rem 1rem;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.package-featured .package-tag {
+    background-color: #0b183d;
+    color: #facc15;
+    padding: 0.5rem 1rem;
+}
+
+.package-card ul{
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+}
+
+.package-card ul li {
+    color: #333;
+    padding: 0.4rem 0;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+    font-size: 1rem;
+}
+
+.package-card ul li::before {
+    content: '✓ ';
+    color: #0b183d;
+    font-weight: 700;
+}
+
+.package-featured ul li::before{
+    color: #0b183d;
+}
+
+.package-custom p{
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.package-custom .package-tag{
+    color: #facc15;
+}
+
+.package-card a{
+    margin-top: auto;
+    display: inline-block;
+    background-color: #0b183d;
+    color: #facc15;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    width: 60%;
+}
+
+.package-card a:hover{
+    background-color: #facc15;
+    color: #0b183d;
+}
+
+.package-featured a:hover{
+    background-color: #ffffff;
+    color: #0b183d;
+}
+
+/* -----SOUND WHY----- */
+.sound-why{
+    padding: 5rem 3rem;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.sound-why h2{
+    color: #0b183d;
+    font: 2.3rem;
+    margin-bottom: 2.5rem;
+    border-bottom: 3px solid #facc15;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+.why-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.why-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 2rem 1.5rem;
+    border-top: 4px solid #0b183d;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.why-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+
+.why-card h3{
+    color: #0b183d;
+    margin-bottom: 0.75rem;
+    font-size: 1.3rem;
+}
+
+.why-card p{
+    color: #444;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+/* ----- SOUND GALLERY----- */
+.sound-gallery{
+    padding: 5rem 3rem;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.sound-gallery h2{
+    color: #0b183d;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.sound-gallery p{
+    color: #444;
+    margin-bottom: 2rem;
+}
+
+.sound-gallery-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.sound-gallery-grid img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sound-gallery-grid img:hover{
+    transform: scale(1.03);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+}
+
+/* ----- SOUND VIDEO----- */
+.sound-video{
+    padding: 5rem 3rem;
+    background-color: #0b183d;
+    text-align: center;
+}
+
+.sound-video h2{
+    color: #facc15;
+    font-size: 2.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.sound-video p{
+    color: #cbd5e1;
+    font-size: 1.1rem;
+    margin-bottom: 2.5rem;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.video-wrap h3{
+    color: #facc15;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.video-wrap iframe{
+    width: 100%;
+    aspect-ratio: 15/16;
+    border-radius: 8px;
+    border: none;
+}
+
+/* -----SOUND CTA---- */
+.sound-cta{
+    background-color: #facc15;
+    padding: 5rem 3rem;
+    text-align: center;
+}
+
+.sound-cta h2{
+    color: #0b183d;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.sound-cta p{
+    color: #0b183d;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    line-height: 1.8;
+    font-size: 1.05rem;
+}
+
+.cta-buttons{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cta-buttons a{
+    display: inline-block;
+    background-color: #0b183d;
+    color: #facc15;
+    padding: 0.85rem 2.5rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.cta-buttons a:hover{
+    background-color: #ffffff;
+    color: #0b183d;
+}
+
+.sound-cta .cta-buttons a:last-child {
+  background-color: transparent;
+  border: 2px solid #0b183d;
+  color: #0b183d;
+}
+
+.sound-cta .cta-buttons a:last-child:hover {
+  background-color: #0b183d;
+  color: #facc15;
+}
+
+/* ----- TABLET 1024PX----- */
+@media (max-width: 1024px) {
+    
+    /* ----- SERVICES ----- */
+    .services-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* ----- PACKAGES ----- */
+    .packages-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .package-featured{
+        transform: translateY(0);
+    }
+
+    /* ----- WHY ----- */
+    .why-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* ----- VIDEO ----- */
+    .video-grid{
+        grid-template-columns: 1fr;
+        max-width: 500px;
+    }
+}
+
+/* ----- MOBILE 768PX ------ */
+@media (max-width: 768px) {
+
+    /* ----- HERO ----- */
+    .sound-hero{
+        padding: 6rem 1.5rem 3rem;
+    }
+
+    .sound-hero h1{
+        font-size: 1.6rem;
+    }
+
+    .sound-hero p {
+        font-size: 1.1rem;
+    }
+
+    /* -----ABOUT----- */
+    .sound-about {
+        padding: 3rem 1.5rem;
+        text-align: center;
+    }
+
+    .sound-about h2 {
+        font-size: 1.6rem;
+    }
+
+    .sound-about p {
+        font-size: 1.1rem;
+    }
+
+    /* ----- SERVICES ----- */
+    .sound-services {
+        padding: 3rem 1.5rem;
+    }
+
+    .sound-services h2 {
+        font-size: 1.6rem;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* ----- PACKAGES ----- */
+    .sound-packages {
+        padding: 3rem 1.5rem;
+    }
+
+    .sound-packages h2 {
+        font-size: 1.6rem;
+    }
+
+    .packages-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .package-card a {
+        width: 80%;
+    }
+
+    .package-tag {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.8rem;
+    }
+
+    /* ----- WHY ---- */
+    .sound-why{
+        padding: 3rem 1.5rem;
+    }
+
+    .why-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .why-card h3{
+        font-size: 1.1rem;
+    }
+
+    /* ---- GALLERY ---- */
+    .sound-gallery{
+        padding: 3rem 1.5rem;
+    }
+
+    .sound-gallery h2{
+        font-size: 1.5rem;
+    }
+
+    .sound-gallery-grid{
+        grid-template-columns: 1fr;
+    }
+
+    /* ----- VIDEO ----- */
+    .sound-video{
+        padding: 3rem 1.5rem;
+    }
+
+    .sound-video h2{
+        font-size: 1.6rem;
+    }
+
+    .video-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .video-wrap iframe{
+        aspect-ratio: 9/16;
+    }
+
+    /* ----- CTA ----- */
+    .sound-cta{
+        padding: 3rem 1.5rem;
+    }
+
+    .sound-cta h2{
+        font-size: 1.6rem;
+    }
+
+    .cta-buttons{
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .cta-buttons a{
+        width: 70%;
+        text-align: center;
+    }
+}

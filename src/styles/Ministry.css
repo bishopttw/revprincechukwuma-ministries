@@ -1,0 +1,379 @@
+/* ----- MINISTRY HERO ----- */
+.ministry-hero{
+    padding: 8rem 3rem 5rem;
+    background-color: #0b183d;
+    color: #ffffff;
+    text-align: center;
+}
+
+.ministry-hero h1{
+    color: #facc15;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.ministry-hero p{
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
+    color: #cbd5e1;
+}
+
+/* ----- MINISTRY ABOUT ----- */
+.ministry-about{
+    padding: 3rem 3rem;
+    background-color: #f8f8f8;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ministry-about h2{
+    color: #0b183d;
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #facc15;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+.ministry-about p{
+    color: #444;
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+/* -----MINISTRY WHAT----- */
+.ministry-what{
+    padding: 5rem 3rem;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.ministry-what h2{
+    color: #0b183d;
+    font-size: 2.2rem;
+    margin-bottom: 0.3rem;
+}
+
+.ministry-what > p {
+    color: #444;
+    margin-bottom: 2.5rem;
+    font-size: 1.1rem;
+}
+
+.what-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.what-card{
+    background-color: #f0f4ff;
+    border-top: 4px solid #facc15;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.what-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+
+.what-card h3{
+    color: #0b183d;
+    font-size: 1.4rem;
+}
+
+.what-card p{
+    color: #444;
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+.what-card a{
+    margin-top: auto;
+    color: #0b183d;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1rem;
+    padding-bottom: 2px;
+    transition: color 0.3s ease;
+}
+
+.what-card a:hover{
+    color: #facc15;
+}
+
+/* ----- MINISTRY VIDEO----- */
+.ministry-video{
+    padding: 5rem 3rem;
+    background-color: #0b183d;
+    text-align: center;
+}
+
+.ministry-video h2{
+    color: #facc15;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.ministry-video p{
+    color: #cbd5e1;
+    margin-bottom: 2.5rem;
+}
+
+.ministry-video-wrap{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.ministry-video-wrap iframe{
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 8px;
+    border: none;
+}
+
+/* ----- MINISTRY GALLERY----- */
+.ministry-gallery{
+    padding: 5rem 3rem;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.ministry-gallery h2{
+    color: #0b183d;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    position: relative;
+    display: inline-block;
+}
+
+.ministry-gallery h2::after{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #facc15;
+    margin: 0.5rem auto 0;
+}
+
+.ministry-gallery-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.ministry-gallery-grid img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ministry-gallery-grid img:hover{
+    transform: scale(1.03);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+}
+
+/* -----MINISTRY FOLLOW----- */
+.ministry-follow{
+    padding: 5rem 3rem;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.ministry-follow h2{
+    color: #0b183d;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.ministry-follow > p{
+    color: #444;
+    max-width: 600px;
+    margin: 0 auto 2.5rem;
+    line-height: 1.8;
+}
+
+.follow-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.follow-card{
+    background-color: #f0f4ff;
+    border-radius: 8px;
+    padding: 2rem 1rem;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.follow-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+
+.follow-card h3{
+    color: #0b183d;
+    font-size: 1.1rem;
+}
+
+.follow-card p{
+    color: #444;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.follow-icon {
+  font-size: 2.5rem;
+}
+
+.facebook { color: #1877F2; }
+.instagram { color: #E1306C; }
+.youtube { color: #FF0000; }
+.tiktok { color: #000000; }
+
+
+/* ----- TABLET 1024PX----- */
+@media (max-width: 1024px){
+    /* ----- WHAT ----- */
+    .what-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* ----- GALLERY ----- */
+    .ministry-gallery-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* ----- FOLLOW ----- */
+    .follow-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* ----- MOBILE 768PX ----- */
+@media (max-width:768px){
+
+    /* ----- HERO ----- */
+    .ministry-hero{
+        padding: 7rem 1.5rem 3rem;
+    }
+
+    .ministry-hero h1{
+        font-size: 1.6rem;
+    }
+
+    .ministry-hero p{
+        font-size: 1rem;
+    }
+
+    /* ------ ABOUT ----- */
+    .ministry-about{
+        padding: 3rem 1.5rem;
+    }
+
+    .ministry-about h2{
+        font-size: 1.6rem;
+    }
+
+    .ministry-about p{
+        font-size: 1.1rem;
+    }
+
+    /* ----- WHAT ----- */
+    .ministry-what{
+        padding: 3rem 1.5rem;
+    }
+
+    .ministry-what h2{
+        font-size: 1.6rem;
+    }
+
+    .ministry-what > p{
+        font-size: 1.1rem;
+    }
+
+    .what-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .what-card h3{
+        font-size: 1.2rem;
+    }
+
+    /* ----- VIDEO ----- */
+    .ministry-video{
+        padding: 3rem 1.5rem;
+    }
+
+    .ministry-video h2{
+        font-size: 1.6rem;
+    }
+
+    .ministry-video-wrap iframe{
+        aspect-ratio: 16/9;
+    }
+
+    /* ----- GALLERY ----- */
+    .ministry-gallery{
+        padding: 3rem 1.5rem;
+    }
+
+    .ministry-gallery h2{
+        font-size: 1.5rem;
+    }
+
+    .ministry-gallery-grid{
+        grid-template-columns: 1fr;
+    }
+
+    /* ----- FOLLOW ------ */
+    .ministry-follow{
+        padding: 3rem 1.5rem;
+    }
+
+    .ministry-follow h2{
+        font-size: 1.6rem;
+    }
+
+    .follow-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .follow-card{
+        padding: 1.5rem 0.75rem;
+    }
+
+    .follow-card h3{
+        font-size: 1.1rem;
+    }
+
+    .follow-card p{
+        font-size: 0.9rem;
+    }
+
+    .follow-icon{
+        font-size: 2rem;
+    }
+}
