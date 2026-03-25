@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Rev. Prince Chukwuma Ministries — Official Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Official website for Ven. Prince Chukwuma (Papa Umuboyii), Archdeacon in the Anglican Communion, Diocese of Nnewi. Built to showcase his ministry, fellowships, business academy, and event solutions.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Pages
 
-### `npm start`
+- **Home** — Hero, About, and Explore section linking to all ministry arms
+- **RCBA** — Resource Christian Business Academy & Global Business and Prayer Conference
+- **Umuboyii** — Umuboyii Na Ndi Oga Fellowship page
+- **PowerSound** — PowerSound System event equipment hire business
+- **Ministry** — Ministry overview, teachings, gallery, and social media links
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Built With
 
-### `npm test`
+- React.js
+- React Router DOM
+- React Icons
+- CSS (custom styling per page)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Fully responsive design (mobile, tablet, desktop)
+- Fixed navigation with active link highlighting
+- Image galleries across multiple pages
+- Embedded YouTube videos
+- WhatsApp and email booking links for PowerSound
+- Social media integration (Facebook, Instagram, YouTube, TikTok)
+- Scroll to top on page navigation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Developer
 
-### `npm run eject`
+Built by the son of Ven. Prince Chukwuma with love and dedication. 💛
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contact
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 📞 080-3951-2515
+- 📧 rev.chukwumaprince@gmail.com
+- 📍 St. Andrew's Anglican Church, Umuohama Ukpor, Anambra State, Nigeria
