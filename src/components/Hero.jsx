@@ -1,4 +1,4 @@
-import heroBg from "../assests/images/heroBg.jpg";
+import heroBg from "../assests/images/ministry/ministry2.jpeg";
 export default function Hero(){
     return (
         <>

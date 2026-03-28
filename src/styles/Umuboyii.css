@@ -19,6 +19,17 @@
     line-height: 1.8;
     color: #cbd5e1;
 }
+.umuboyii-powered {
+  margin-top: 1.5rem;
+  font-size: 0.95rem;
+  color: #facc15;
+  opacity: 0.85;
+}
+
+.umuboyii-powered strong {
+  color: #facc15;
+  font-weight: 700;
+}
 
 /* -----UMUBOYII ABOUT----- */
 .umuboyiiAbout{

@@ -12,10 +12,10 @@ export default function Explore(){
             <div className="highlight-grid">
 
                 <div className="card">
-                    <h3>RCBA</h3>
-                    <img src={rcbaImg} alt="RCBA"/>
-                    <p>Resource Business Christian Academy (mentorship program)
-                       Equipping entrepreneurs with biblical wisdom and business excellence.
+                    <h3>GBPC</h3>
+                    <img src={rcbaImg} alt="GBPC"/>
+                    <p>Global Business & Prayer Conference — a faith driven gathering equipping 
+                       entrepreneurs with practical business ideas, strategies, and spiritual direction.
                     </p>
                     <Link to="/rcba">EXPLORE</Link>
                 </div>

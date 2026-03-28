@@ -8,7 +8,7 @@ export default function About(){
                 <p>Ven. Prince Chukwuma, popularly known as PAPA UMUBOYII, 
                 He is an Archdeacon in the anglican communion 
                 dedicated to teaching and preaching God's word. 
-                Through his umuboyii fellowship, he provides memtorship 
+                Through his umuboyii fellowship, he provides mentorship 
                 and guidance to young people especially apprentices, 
                 while reaching a wider audience through church services,
                 morning prayers, and a strong online presence.

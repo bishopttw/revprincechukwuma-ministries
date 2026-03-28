@@ -20,3 +20,6 @@ export default function Rcba(){
         </>
     );
 }
+
+// This page is for GBPC (Global Business & Prayer Conference)
+// powered by RCBA - named rcba internally for consistency

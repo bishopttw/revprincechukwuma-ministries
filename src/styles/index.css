@@ -308,6 +308,9 @@ body{
   color: #ffffff;
   padding: 4rem 3rem 0;
 }
+.email{
+  text-transform: lowercase;
+}
 
 .footer-container{
   max-width: 1200px;
@@ -371,7 +374,7 @@ body{
   color: #b6c3d6;
 }
 
-/* ----- TABLET 1024----- */
+/* ----- TABLET 1024PX----- */
 @media (max-width: 1024px){
   .hamburger-icon{
     display: block;
