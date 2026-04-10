@@ -34,7 +34,7 @@ body{
   z-index: 1000;
 }
 .logo{
-  width: 40px;
+  width: 60px;
   height: 50px;
 }
 .logo-holder{
@@ -326,6 +326,15 @@ body{
   margin-bottom: 1rem;
   border-bottom: 1px solid rgba(255,255,255,0.2);
   padding-bottom: 0.5rem;
+}
+
+.footer-col h3{
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.6rem;
+  margin-left: -2rem;
 }
 
 .footer-col p{

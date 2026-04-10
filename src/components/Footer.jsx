@@ -41,11 +41,12 @@ export default function Footer(){
                         <SiAudiomack style={{color: "#FFA500", fontSize: "24px"}}/>
                     </a>
                 </div>
+                <h3>Rev Prince Chukwuma</h3>
             </div>
 
             <div className="footer-bottom">
-                <p>&copy; 2026 REV PRINCE CHUKWUMA.</p>
-                <p>CHAII!! WHEN GOD DECIDES TO HELP A MAN.</p>
+                <p>&copy; 2026 REV PRINCE CHUKWUMA</p>
+                <p>CHAI! WHEN GOD DECIDES TO HELP A MAN...</p>
             </div>
         </div>
         </section>
